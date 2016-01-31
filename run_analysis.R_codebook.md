@@ -1,6 +1,6 @@
 #Codebook for run_analysis.R
 
-*Summarization*
+**Summarization**
 
 run_analysis.R selects mean and standard deviation measurements for multiple "features", by 
 test subject and activity groupings, and finds the average measurement value for each 
@@ -10,12 +10,12 @@ in a table to unformatted feature names.
 See "Output variables" and "Feature name reformatting" sections for this information. 
 
 
-*Output files*
+**Output files**
 
 HAR_summary.txt
 
 
-*Output variables*
+**Output variables**
 
 Subject
 
@@ -182,7 +182,8 @@ fBodyBodyGyroJerkMag.meanFreq
 Activity.label
 
 
-*Feature name reformatting*
+
+**Feature name reformatting**
 
 Feature|Unformatted|Formatted
 -------|-----------|---------
